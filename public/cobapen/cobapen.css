@@ -1,0 +1,19 @@
+html {
+  font-size: 0.9rem;
+  line-height: 1.625;
+  font-family: 
+    -apple-system,
+    "BlinkMacSystemFont",
+    "Helvetica Neue",
+    "Segoe UI",
+    "BIZ UDPGothic",
+    "Meiryo",
+    "Hiragino Kaku Gothic ProN",
+    sans-serif;
+  letter-spacing: 0.01em;
+}
+body {
+  background-color: #e8e8e8;
+  background-image: url(bg.png);
+  color: #222;
+}
