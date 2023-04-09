@@ -160,12 +160,11 @@
       })
     }
     {
-      const XSTYLE_KEY = 'x-style'
       /** @type {HTMLSelectInput} */
       const el = document.getElementById('css-select')
       el.addEventListener('change', _ => {
+        const XSTYLE_KEY = 'x-style'
         const value = el.options[el.selectedIndex].value
-
         const links = document.getElementsByTagName('link')
         for (let link of links) {
           if (link.hasAttribute(XSTYLE_KEY)) {
